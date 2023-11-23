@@ -1,0 +1,96 @@
+body {
+  background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.item .login-card {
+  background-color: #414141;
+  max-width: 800px;
+  min-height: 800px;
+  padding: 70px 100px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 15px;
+}
+.item .login-card .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+.item .login-card .form .mail-pass {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.item .login-card .form .mail-pass .mail-form input,
+.item .login-card .form .mail-pass .pass-form input {
+  background-color: transparent;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  color: white;
+}
+.item .login-card .form .mail-pass .mail-form input:focus::-moz-placeholder, .item .login-card .form .mail-pass .pass-form input:focus::-moz-placeholder {
+  background-color: white;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.item .login-card .form .mail-pass .mail-form input:focus::placeholder,
+.item .login-card .form .mail-pass .pass-form input:focus::placeholder {
+  background-color: white;
+  transition: all 0.2s;
+}
+.item .login-card .form .mail-pass .but-reg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.item .login-card .form .mail-pass .but-reg .login {
+  border-radius: 20px;
+  background-color: #2D2D2D;
+  padding: 21px 104px;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+.item .login-card .form .mail-pass .but-reg .login:hover {
+  background-color: #1f1f1f;
+  transition: all 0.3s;
+}
+.item .login-card .form .mail-pass .but-reg .another a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.item .login-card .form .mail-pass .but-reg .another a:hover {
+  color: #1f1f1f;
+  transition: all 0.3s;
+}
+.item .login-card .form .mail-pass .but-reg .or {
+  color: white;
+}
+.item .login-card .logotypes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.item .login-card .logotypes .img {
+  cursor: pointer;
+}
+.item .login-card .logotypes .img img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */

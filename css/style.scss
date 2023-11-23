@@ -1,0 +1,96 @@
+body {
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    .login-card {
+        background-color: #414141;
+        max-width: 800px;
+        min-height: 800px;
+        padding: 70px 100px 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        border-radius: 15px;
+        .title {
+            font-size: 36px;
+            font-weight: 600;
+            color: white;
+        }
+        .form {
+            .mail-pass {
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+                .mail-form, 
+                .pass-form {
+                    input {
+                        background-color: transparent;
+                        width: 100%;
+                        border: 0;
+                        border-bottom: 1px solid #fff;
+                        color: white;
+                        &:focus::placeholder {
+                            background-color: white;
+                            transition: all .2s;
+                        }
+                    }
+                }
+                .but-reg {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    .login {
+                        border-radius: 20px;
+                        background-color: #2D2D2D;
+                        padding: 21px 104px;
+                        border: 0;
+                        color: white;
+                        font-size: 24px;
+                        font-weight: 400;
+                        &:hover {
+                            background-color: #1f1f1f;
+                            transition: all .3s;
+                        }
+                    }
+                    .another {
+                        a {
+                            text-decoration: none;
+                            color: #ffffff;
+                            &:hover {
+                                color:#1f1f1f;
+                                transition: all .3s;
+                            }
+                        }
+                    }
+                    .or {
+                        color: white;
+                    }
+
+                }
+            }
+        }
+        .logotypes {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: space-between;
+            .img {
+            cursor: pointer;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
