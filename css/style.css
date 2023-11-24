@@ -33,6 +33,30 @@ body {
   flex-direction: column;
   gap: 60px;
 }
+.item .login-card .form .mail-pass .login {
+  border-radius: 20px;
+  background-color: #2D2D2D;
+  padding: 21px 104px;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+.item .login-card .form .mail-pass .login:hover {
+  background-color: #1f1f1f;
+  transition: all 0.3s;
+}
+.item .login-card .form .mail-pass .another a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.item .login-card .form .mail-pass .another a:hover {
+  color: #1f1f1f;
+  transition: all 0.3s;
+}
+.item .login-card .form .mail-pass .or {
+  color: white;
+}
 .item .login-card .form .mail-pass .mail-form input,
 .item .login-card .form .mail-pass .pass-form input {
   background-color: transparent;

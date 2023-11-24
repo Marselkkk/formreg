@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+    .item .login-card {
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .item .login-card {
+        max-width: 300px;
+        padding: 35px 50px 20px;
+    }
+    .item .login-card .form .mail-pass .but-reg .login {
+        padding: 21px 42px;
+        font-size: 18px;
+    }
+}
